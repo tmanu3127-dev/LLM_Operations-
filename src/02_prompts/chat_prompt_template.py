@@ -58,7 +58,7 @@ def main():
     chat_messages = messages.to_messages()
     for message in chat_messages:
         print(f"{message.type.upper()}:")
-        print(message.content)
+        print(message.content)   # use text inspite of content
         print()
 
     print_separator()
